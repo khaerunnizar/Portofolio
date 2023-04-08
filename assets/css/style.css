@@ -1273,10 +1273,19 @@ h5.card-title {
   margin-bottom: 20px;
 }
 
-.card .btn btn-primary {
-  text-align: center;
+.card .btn-primary {
+  margin:auto;
+  display:block;
 }
 
-.card {
-  margin-bottom: 30px;
+@media (max-width:800px) {
+  .card {
+    width: 18rem;
+    margin-left:auto;
+  }
+  
+  .row .col-lg-4 img {
+    margin:auto;
+    display:block;
+  }
 }
